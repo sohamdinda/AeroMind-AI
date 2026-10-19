@@ -1,0 +1,37 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+
+# React build output
+frontend/build/
+frontend/dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Local prediction history
+backend/prediction_history.csv
+
+# Dataset excluded until redistribution rights are confirmed
+dataset/GlobalWeatherRepository.csv
