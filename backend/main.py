@@ -6,6 +6,7 @@ from fastapi.responses import FileResponse
 from dotenv import load_dotenv
 import mysql.connector
 from mysql.connector import Error
+from pathlib import Path
 import pickle
 import shap
 import os
@@ -27,7 +28,9 @@ app.add_middleware(
 )
 
 # Load Saved Machine Learning Model
-with open("../models/aqi_model.pkl", "rb") as file:
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "aqi_model.pkl"
+
+with open(MODEL_PATH, "rb") as file:
     model = pickle.load(file)
 
 # SHAP Explainer
