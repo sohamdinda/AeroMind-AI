@@ -82,3 +82,12 @@ The application predicts air-quality categories from the input features used by 
 ## License
 
 No license has been added yet. Add an appropriate license before allowing others to reuse the project.
+
+
+## 📸 Screenshots
+
+### Dashboard
+![AeroMind AI Dashboard](screenshots/dashboard.png)
+
+### Air Quality Prediction and SHAP Explainability
+![Prediction Result and SHAP Explanation](screenshots/prediction-result.png)
