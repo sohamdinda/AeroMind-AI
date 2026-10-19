@@ -90,4 +90,4 @@ No license has been added yet. Add an appropriate license before allowing others
 ![AeroMind AI Dashboard](screenshots/dashboard.png)
 
 ### Air Quality Prediction and SHAP Explainability
-![Prediction Result and SHAP Explanation](screenshots/prediction-result.png)
+![Prediction Result and SHAP Explanation](screenshots/prediction_result.png)
